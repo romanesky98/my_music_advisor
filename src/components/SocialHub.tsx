@@ -25,9 +25,9 @@ export default function SocialHub() {
             <a
               key={social.name}
               href={social.url}
-              className={`flex items-center gap-3 bg-white px-8 py-5 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 ${social.color}`}
+              className={`flex items-center gap-3 bg-gradient-to-br from-yellow-50 to-red-50 px-8 py-5 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105`}
             >
-              <social.icon className="w-8 h-8" />
+              <social.icon className="w-8 h-8 text-yellow-600" />
               <span className="font-semibold text-lg">{social.name}</span>
             </a>
           ))}

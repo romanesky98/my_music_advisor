@@ -6,31 +6,31 @@ export default function Discover() {
       icon: Sparkles,
       title: 'To Relax',
       description: 'Gentle sounds for unwinding',
-      color: 'from-blue-500 to-cyan-500',
+      color: 'from-yellow-500 to-red-600',
     },
     {
       icon: Focus,
       title: 'To Focus',
       description: 'Ambient tracks for concentration',
-      color: 'from-purple-500 to-pink-500',
+      color: 'from-yellow-500 to-red-600',
     },
     {
       icon: Heart,
       title: 'To Feel Emotions',
       description: 'Music that moves you',
-      color: 'from-red-500 to-orange-500',
+      color: 'from-yellow-500 to-red-600',
     },
     {
       icon: Compass,
       title: 'To Discover Something Unique',
       description: 'Rare finds off the beaten path',
-      color: 'from-green-500 to-teal-500',
+      color: 'from-yellow-500 to-red-600',
     },
     {
       icon: TrendingUp,
       title: 'To Stay Ahead',
       description: 'Tomorrow\'s hits before they trend',
-      color: 'from-yellow-500 to-red-500',
+      color: 'from-yellow-500 to-red-600',
     },
   ];
 

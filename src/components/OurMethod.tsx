@@ -7,28 +7,28 @@ export default function OurMethod() {
       icon: Search,
       title: 'We Dig',
       description: 'We sift through hundreds of emerging tracks, small albums, and independent releases.',
-      color: 'from-blue-500 to-cyan-500',
+      color: 'from-yellow-500 to-red-600',
     },
     {
       number: '2',
       icon: Filter,
       title: 'We Choose',
       description: 'Every selection comes from listening. Not from numbers or artificial trending.',
-      color: 'from-purple-500 to-pink-500',
+      color: 'from-yellow-500 to-red-600',
     },
     {
       number: '3',
       icon: Star,
       title: 'We Rate',
       description: 'Transparent ratings, explained with simple words.',
-      color: 'from-orange-500 to-red-500',
+      color: 'from-yellow-500 to-red-600',
     },
     {
       number: '4',
       icon: MessageSquare,
       title: 'We Tell Stories',
       description: 'Every recommendation has a story, a mood, a reason why it can hit you.',
-      color: 'from-green-500 to-teal-500',
+      color: 'from-yellow-500 to-red-600',
     },
   ];
 
@@ -69,7 +69,7 @@ export default function OurMethod() {
           ))}
         </div>
 
-        <div className="bg-gradient-to-br from-brand-700 to-brand-500 rounded-2xl p-8 md:p-10 text-white text-center shadow-xl">
+        <div className="bg-gradient-to-br from-yellow-600 to-red-600 rounded-2xl p-8 md:p-10 text-white text-center shadow-xl">
           <p className="text-xl md:text-2xl font-semibold">
             Behind every "hidden gem", there's someone who truly listened to it.
           </p>

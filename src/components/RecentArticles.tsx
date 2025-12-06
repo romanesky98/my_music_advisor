@@ -60,7 +60,7 @@ export default function RecentArticles() {
             >
               <div className="h-56 relative overflow-hidden">
                 <img src={article.imageUrl} alt={article.title} className="absolute inset-0 w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-br from-red-600/40 via-red-500/30 to-orange-500/30"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/40 via-red-500/30 to-yellow-600/30"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <Play className="w-16 h-16 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
